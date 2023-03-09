@@ -9,7 +9,7 @@ const Task = styled.div`
     }
     display: ${props => props.showCard ? "flex" : "none"};
     font-size: 1.2rem;
-    background-color: yellow;
+    background-color: ${props => props.done ? "lightgreen" : "yellow"};
     padding: 2rem;
     box-shadow: 3px 3px 3px black;
     text-align: center;
