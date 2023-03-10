@@ -95,7 +95,7 @@ function App() {
             setInput(event.target.value)
           }} />
         </div>
-        <input id='submit' type="submit" />
+        <input id='submit' value="Cadastrar" type="submit" />
       </Form>
       <CardContainer>
         {items}
